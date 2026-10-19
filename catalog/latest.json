@@ -1,0 +1,191 @@
+{
+  "fetched_at": "2026-10-19T15:10:45+00:00",
+  "providers": {
+    "opencode-zen": {
+      "ok": true,
+      "total_models": 85,
+      "free_models": 9
+    },
+    "openrouter": {
+      "ok": true,
+      "total_models": 469,
+      "free_models": 20
+    }
+  },
+  "free_models": [
+    {
+      "provider": "opencode-zen",
+      "model_id": "beam-free",
+      "free_reason": "id_contains_-free",
+      "context_length": null
+    },
+    {
+      "provider": "opencode-zen",
+      "model_id": "deepseek-v4.1-flash-free",
+      "free_reason": "id_contains_-free",
+      "context_length": null
+    },
+    {
+      "provider": "opencode-zen",
+      "model_id": "glm-5.3-flash-free",
+      "free_reason": "id_contains_-free",
+      "context_length": null
+    },
+    {
+      "provider": "opencode-zen",
+      "model_id": "jev-1.13-free",
+      "free_reason": "id_contains_-free",
+      "context_length": null
+    },
+    {
+      "provider": "opencode-zen",
+      "model_id": "longcat-2.5-preview-free",
+      "free_reason": "id_contains_-free",
+      "context_length": null
+    },
+    {
+      "provider": "opencode-zen",
+      "model_id": "mimo-v2.6-flash-free",
+      "free_reason": "id_contains_-free",
+      "context_length": null
+    },
+    {
+      "provider": "opencode-zen",
+      "model_id": "minimax-m3.1-flash-free",
+      "free_reason": "id_contains_-free",
+      "context_length": null
+    },
+    {
+      "provider": "opencode-zen",
+      "model_id": "nemotron-3.5-lightning-free",
+      "free_reason": "id_contains_-free",
+      "context_length": null
+    },
+    {
+      "provider": "opencode-zen",
+      "model_id": "nemotron-3.5-super-vl-free",
+      "free_reason": "id_contains_-free",
+      "context_length": null
+    },
+    {
+      "provider": "openrouter",
+      "model_id": "cohere/north-mini-code:free",
+      "free_reason": "id_suffix_:free",
+      "context_length": 256000
+    },
+    {
+      "provider": "openrouter",
+      "model_id": "dots-studio/dots-3-note-preview:free",
+      "free_reason": "id_suffix_:free",
+      "context_length": 512000
+    },
+    {
+      "provider": "openrouter",
+      "model_id": "google/gemma-4-26b-a4b-it:free",
+      "free_reason": "id_suffix_:free",
+      "context_length": 262144
+    },
+    {
+      "provider": "openrouter",
+      "model_id": "google/gemma-4-31b-it:free",
+      "free_reason": "id_suffix_:free",
+      "context_length": 262144
+    },
+    {
+      "provider": "openrouter",
+      "model_id": "google/lyria-3-clip-preview",
+      "free_reason": "zero_price",
+      "context_length": 1048576
+    },
+    {
+      "provider": "openrouter",
+      "model_id": "google/lyria-3-pro-preview",
+      "free_reason": "zero_price",
+      "context_length": 1048576
+    },
+    {
+      "provider": "openrouter",
+      "model_id": "liquid/lfm-2.5-2.6b:free",
+      "free_reason": "id_suffix_:free",
+      "context_length": 65536
+    },
+    {
+      "provider": "openrouter",
+      "model_id": "minimax/minimax-m3.1-flash:free",
+      "free_reason": "id_suffix_:free",
+      "context_length": 1000000
+    },
+    {
+      "provider": "openrouter",
+      "model_id": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
+      "free_reason": "id_suffix_:free",
+      "context_length": 256000
+    },
+    {
+      "provider": "openrouter",
+      "model_id": "nvidia/nemotron-3-super-120b-a12b:free",
+      "free_reason": "id_suffix_:free",
+      "context_length": 262144
+    },
+    {
+      "provider": "openrouter",
+      "model_id": "nvidia/nemotron-3-ultra-550b-a55b:free",
+      "free_reason": "id_suffix_:free",
+      "context_length": 1000000
+    },
+    {
+      "provider": "openrouter",
+      "model_id": "nvidia/nemotron-3.5-content-safety:free",
+      "free_reason": "id_suffix_:free",
+      "context_length": 128000
+    },
+    {
+      "provider": "openrouter",
+      "model_id": "nvidia/nemotron-3.5-lightning:free",
+      "free_reason": "id_suffix_:free",
+      "context_length": 1000000
+    },
+    {
+      "provider": "openrouter",
+      "model_id": "nvidia/nemotron-3.5-super-vl:free",
+      "free_reason": "id_suffix_:free",
+      "context_length": 1000000
+    },
+    {
+      "provider": "openrouter",
+      "model_id": "openrouter/free",
+      "free_reason": "zero_price",
+      "context_length": 200000
+    },
+    {
+      "provider": "openrouter",
+      "model_id": "poolside/laguna-s-2.1:free",
+      "free_reason": "id_suffix_:free",
+      "context_length": 262144
+    },
+    {
+      "provider": "openrouter",
+      "model_id": "poolside/laguna-xs-2.1:free",
+      "free_reason": "id_suffix_:free",
+      "context_length": 262144
+    },
+    {
+      "provider": "openrouter",
+      "model_id": "thinkingmachines/inkling-small:free",
+      "free_reason": "id_suffix_:free",
+      "context_length": 1048576
+    },
+    {
+      "provider": "openrouter",
+      "model_id": "thinkingmachines/inkling:free",
+      "free_reason": "id_suffix_:free",
+      "context_length": 1048576
+    },
+    {
+      "provider": "openrouter",
+      "model_id": "xingchen-agi/xing4.0-29b-a4b:free",
+      "free_reason": "id_suffix_:free",
+      "context_length": 262144
+    }
+  ]
+}

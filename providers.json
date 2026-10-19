@@ -1,0 +1,22 @@
+{
+  "providers": [
+    {
+      "id": "opencode-zen",
+      "kind": "openai-compatible",
+      "models_url": "https://opencode.ai/zen/v1/models",
+      "free_rule": "id_contains:free",
+      "auth_env": null,
+      "user_agent": "opencode/1.0",
+      "note": "Lists models with '-free' suffix. Public listing works without a key in tests."
+    },
+    {
+      "id": "openrouter",
+      "kind": "openai-compatible",
+      "models_url": "https://openrouter.ai/api/v1/models",
+      "free_rule": "id_contains:free_or_zero_price",
+      "auth_env": "OPENROUTER_API_KEY",
+      "user_agent": "free-model-catalog/0.1",
+      "note": "Free = id ends with ':free' OR prompt and completion price are both 0."
+    }
+  ]
+}
